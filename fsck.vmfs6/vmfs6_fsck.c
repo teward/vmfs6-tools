@@ -523,7 +523,7 @@ static void show_usage(char *prog_name)
 {
    char *name = basename(prog_name);
 
-   fprintf(stderr,"%s " VERSION "\n",name);
+   fprintf(stderr,"\n",name);
    fprintf(stderr,"Syntax: %s <device_name...>\n\n",name);
 }
 

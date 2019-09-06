@@ -573,7 +573,7 @@ static void show_usage(char *prog_name)
    int i;
    char *name = basename(prog_name);
 
-   fprintf(stderr,"%s " VERSION "\n",name);
+   fprintf(stderr," \n",name);
    fprintf(stderr,"Syntax: %s <device_name...> <command> <args...>\n\n",name);
    fprintf(stderr,"        %s -b <file_name> show <args...>\n\n",name);
    fprintf(stderr,"Available commands:\n");
