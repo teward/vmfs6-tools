@@ -67,7 +67,3 @@ depending on your system)
 On Cygwin, you need to EXTRA_LDFLAGS to -L/usr/lib/e2fsprogs to get libuuid
 from there. This can be done with the command
 `make EXTRA_LDFLAGS=-L/usr/lib/e2fsprogs'.
-
-------
-
-- Most code is developped by Christophe Fillot <cf (at) utc.fr> and Mike Hommey <mh (at) glandium.org>.
