@@ -1,19 +1,19 @@
-vmfs-fuse(8)
+vmfs6-fuse(8)
 ============
 
 NAME
 ----
-vmfs-fuse - mount VMFS file system
+vmfs6-fuse - mount VMFS6 file systems
 
 
 SYNOPSIS
 --------
-*vmfs-fuse* 'VOLUME'... 'MOUNT_POINT'
+*vmfs6-fuse* 'VOLUME'... 'MOUNT_POINT'
 
 
 DESCRIPTION
 -----------
-The *vmfs-fuse* program allows to mount VMFS file systems.
+The *vmfs6-fuse* program allows to mount VMFS file systems.
 
 The 'VOLUME' to be opened can be either a block device or an image file.
 When the VMFS spreads accross several extents, all extents must be given.
@@ -29,4 +29,4 @@ include::../AUTHORS[]
 
 SEE ALSO
 --------
-debugvmfs(8)
+debugvmfs6\(8)

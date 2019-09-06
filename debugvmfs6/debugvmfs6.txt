@@ -1,20 +1,20 @@
-debugvmfs(8)
+debugvmfs6(8)
 ============
 
 NAME
 ----
-debugvmfs - VMFS file system debugger
+debugvmfs6 - VMFS file system debugger
 
 
 SYNOPSIS
 --------
-*debugvmfs* 'VOLUME'... 'COMMAND' [ 'OPTIONS' ]
-*debugvmfs* *-b* 'BITMAP' show [ 'VARIABLE' ]
+*debugvmfs6* 'VOLUME'... 'COMMAND' [ 'OPTIONS' ]
+*debugvmfs6* *-b* 'BITMAP' show [ 'VARIABLE' ]
 
 
 DESCRIPTION
 -----------
-The *debugvmfs* program allows to display various informations about VMFS
+The *debugvmfs6* program allows to display various informations about VMFS6
 file systems, and to access data within the file systems.
 
 The 'VOLUME' to be opened can be either a block device or an image file.
@@ -125,7 +125,7 @@ Examples:
 VARIABLES
 ---------
 
-Variables in debugvmfs represent structures on the filesystem. The currently
+Variables in debugvmfs6 represent structures on the filesystem. The currently
 supported top-level variables are the following:
 
 - *vol_version*
@@ -388,4 +388,4 @@ include::../AUTHORS[]
 
 SEE ALSO
 --------
-vmfs-fuse(8)
+vmfs6-fuse(8)

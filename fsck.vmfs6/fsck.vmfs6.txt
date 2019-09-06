@@ -1,19 +1,19 @@
-fsck.vmfs(8)
+fsck.vmfs6(8)
 ============
 
 NAME
 ----
-fsck.vmfs - VMFS file system check utility
+fsck.vmfs6 - VMFS6 file system check utility
 
 
 SYNOPSIS
 --------
-*fsck.vmfs* 'VOLUME'...
+*fsck.vmfs6* 'VOLUME'...
 
 
 DESCRIPTION
 -----------
-The *fsck.vmfs* performs various integrity checks on a VMFS file system.
+The *fsck.vmfs6* performs various integrity checks on a VMFS6 file system.
 
 The 'VOLUME' to be opened can be either a block device or an image file.
 When the VMFS spreads accross several extents, all extents must be given.
@@ -25,4 +25,4 @@ include::../AUTHORS[]
 
 SEE ALSO
 --------
-debugvmfs(8)
+debugvmfs6(8)

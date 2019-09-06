@@ -1,19 +1,19 @@
-vmfs-lvm(8)
+vmfs6-lvm(8)
 ===========
 
 NAME
 ----
-vmfs-lvm - VMFS logical volume manager tool
+vmfs6-lvm - VMFS6 logical volume manager tool
 
 
 SYNOPSIS
 --------
-*vmfs-lvm* 'VOLUME'... 'COMMAND'
+*vmfs6-lvm* 'VOLUME'... 'COMMAND'
 
 
 DESCRIPTION
 -----------
-The *vmfs-lvm* program allows handle VMFS physical and logical volumes.
+The *vmfs6-lvm* program allows handle VMFS6 physical and logical volumes.
 
 The 'VOLUME' to be opened can be either a block device or an image file.
 When the VMFS spreads accross several extents, all extents must be given.
@@ -32,4 +32,4 @@ include::../AUTHORS[]
 
 SEE ALSO
 --------
-vmfs-fuse(8)
+vmfs6-fuse(8)
